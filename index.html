@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      #game-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>Minesweeper</h1>
+      <div id="message"></div>
+      <table id="board"></table>
+      <button id="restartButton">Restart</button>
+    </div>
+    <script src="minesweeper.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
